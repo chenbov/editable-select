@@ -13,8 +13,6 @@
         });
  </script>
  
- select 为需要可输入功能<select>的id
- 
 ### 选项设置
 
 isFilter:true //是否根据条件过滤下拉选项，即当输入内容时下拉选项会匹配输入的字符，支持中文，true/false，默认true。
