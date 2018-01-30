@@ -1,3 +1,23 @@
+# 在项目中引入JS及其CSS文件
+
+<script src="./js/jquery.editable-select.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="./css/jquery.editable-select.css">
+
+# 为需要这个功能的select添加id
+
+ <select id="select"></select>
+ 
+# 配置设置
+
+ <script>
+        $(function(){
+            $('#select').editableSelect({
+                effects: 'slide'
+            });
+        });
+ </script>
+ 
 # 选项设置
 
 isFilter:true //是否根据条件过滤下拉选项，即当输入内容时下拉选项会匹配输入的字符，支持中文，true/false，默认true。
