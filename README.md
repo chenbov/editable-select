@@ -1,11 +1,9 @@
-## 在项目中引入JS及其CSS文件
+## 使用说明
+### 在项目中引入JS及其CSS文件
 
 <script src="./js/jquery.editable-select.js" type="text/javascript"></script>
-<link rel="stylesheet" href="./css/jquery.editable-select.css">
 
-## 为需要这个功能的select添加id
- <select id="select"></select>
-## 配置设置
+### 配置设置
 
  <script>
         $(function(){
@@ -15,7 +13,9 @@
         });
  </script>
  
-## 选项设置
+ select 为需要可输入功能<select>的id
+ 
+### 选项设置
 
 isFilter:true //是否根据条件过滤下拉选项，即当输入内容时下拉选项会匹配输入的字符，支持中文，true/false，默认true。
 
@@ -29,7 +29,7 @@ items_then_scroll: 10 ,// 设置下拉选项的数目
 
 bg_iframe: true, //是否加iframe
 
-## 事件
+### 事件
 
 onCreate：当输入时触发。
 
@@ -39,6 +39,6 @@ onHide：当下拉框隐藏时触发。
 
 onSelect：当下拉框中的选项被选中时触发。
 
-## 扩展
+### 扩展
 
 这款插件允许用户输入内容，同时下拉选项中会及时匹配相关选项，支持键盘操作，还支持html选项内容，当然还能让下拉的过程带有动画效果。
