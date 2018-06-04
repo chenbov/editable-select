@@ -5,7 +5,6 @@
  *  instances[0].addOption('Germany', 'value added programmatically');
  *
  * Version: 1.3.2
- * yingxian modify
  * Demo and documentation: http://coffeescripter.com/code/editable-select/
  */
 (function($) {
